@@ -12,6 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px 0px;
 }
 .name {
 font-weight: 400;
@@ -28,12 +29,11 @@ margin-right: 188px;
 font-size: 20px;
 color: #000;
 margin: 0px 65px;
+transition: color .5s;
 }
-.Home {
-    font-weight: 600;
-    font-size: 20px;
+.section-names:hover{
     color: #ff993a;
-    margin-right: 65px;
+    cursor: pointer;
 }
 .nav-img {
     margin-right: 22px;
@@ -47,12 +47,38 @@ margin: 0px 65px;
     display: flex;
 }
 .Welcome {
+    font-weight: 400;
+font-size: 16px;
+color: #ff993a;
+margin-bottom: 20px;
 }
 .flavor {
+    font-weight: 700;
+font-size: 48px;
+color: #ff463a;
+margin-bottom: 45px;
 }
 .desc {
+    font-weight: 400;
+font-size: 20px;
+color: #000;
+margin-bottom: 45px;
 }
 .order {
+    font-weight: 700;
+font-size: 20px;
+color: #fff;
+border-radius: 5px;
+padding: 15px 30px;
+width: 163px;
+height: 57px;
+background: #ff463a;
+border-style: none;
 }
 .header-ice-cream {
+    width: 501px;
+height: 758px;
+}
+.header-text{
+    margin: 134px 397px 150px 150px;
 }
