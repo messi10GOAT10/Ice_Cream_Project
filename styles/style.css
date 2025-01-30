@@ -7,40 +7,44 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    background: #000;
+}
 .page-wrapper{
     width: 1920px;
-    justify-self: center;
+    margin: 0 auto;
+    background: white;
 }
-.nav {
+.nav-container {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px 0px;
 }
-.name {
+.nav-name {
 font-weight: 400;
 font-size: 24px;
 color: #ff993a;
 margin-right: 188px;
 font-family: "Oswald", serif;
 }
-.sections {
+.nav-sections {
     display: flex;
     list-style: none;
 }
-.section-names {
+.nav-section-names {
     font-weight: 400;
 font-size: 20px;
-color: #000;
+
 margin: 0px 65px;
 transition: color .5s;
 font-family: "Raleway", serif;
 }
-.section-names:hover{
+.nav-section-names:hover{
     color: var(--main-orange);
     cursor: pointer;
 }
-.nav-img {
+.nav-logo {
     margin-right: 22px;
     width: 80px;
     height: 80px;
@@ -51,28 +55,25 @@ font-family: "Raleway", serif;
     background: #FFE4CC;
     display: flex;
 }
-.Welcome {
-    font-weight: 400;
+.header-Welcome {
 font-size: 16px;
 color: var(--main-orange);
 margin-bottom: 20px;
 font-family: "Raleway", serif;
 }
-.flavor {
+.header-flavor {
     font-weight: 700;
 font-size: 48px;
 color: var(--main-red);
 margin-bottom: 45px;
 font-family: "Nunito", serif;
 }
-.desc {
-    font-weight: 400;
+.header-desc {
 font-size: 20px;
-color: #000;
 margin-bottom: 45px;
 font-family: "Nunito", serif;
 }
-.order {
+.header-order {
     font-weight: 700;
 font-size: 20px;
 color: #fff;
@@ -90,4 +91,57 @@ height: 758px;
 }
 .header-text{
     margin: 134px 397px 150px 150px;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    padding: 60px 0px;
+}
+.card-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 117px;
+    border-radius: 10px;
+width: 800px;
+height: 500px;
+background: #efefef;
+}
+.cards-title {
+    font-weight: 700;
+font-size: 36px;
+color: #ff463a;
+font-family: "Nunito", serif;
+margin-bottom: 10px;
+}
+.cards-num {
+    font-size: 20px;
+font-family: "Raleway", serif;
+margin-bottom: 45px;
+}
+.cards-shop {
+    font-size: 20px;
+font-family: "Raleway", serif;
+border: 1px solid #000;
+border-radius: 5px;
+padding: 15px 30px;
+}
+.cards-1-ice-cream {
+}
+.card-2 {
+    display: flex;
+    align-items: center;
+    column-gap: 117px;
+    border-radius: 10px;
+    width: 800px;
+    height: 500px;
+    justify-content: center;
+    background: #efefef;
+}
+.cards-2-ice-cream {
+}
+.cards-text{
+    display: flex;
+    flex-direction: column;
 }
