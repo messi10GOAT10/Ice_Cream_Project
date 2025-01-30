@@ -1,5 +1,8 @@
 @import "/styles/reset.css";
 @import "/styles/colors.css";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -19,6 +22,7 @@ font-weight: 400;
 font-size: 24px;
 color: #ff993a;
 margin-right: 188px;
+font-family: "Oswald", serif;
 }
 .sections {
     display: flex;
@@ -30,9 +34,10 @@ font-size: 20px;
 color: #000;
 margin: 0px 65px;
 transition: color .5s;
+font-family: "Raleway", serif;
 }
 .section-names:hover{
-    color: #ff993a;
+    color: var(--main-orange);
     cursor: pointer;
 }
 .nav-img {
@@ -49,20 +54,23 @@ transition: color .5s;
 .Welcome {
     font-weight: 400;
 font-size: 16px;
-color: #ff993a;
+color: var(--main-orange);
 margin-bottom: 20px;
+font-family: "Raleway", serif;
 }
 .flavor {
     font-weight: 700;
 font-size: 48px;
-color: #ff463a;
+color: var(--main-red);
 margin-bottom: 45px;
+font-family: "Nunito", serif;
 }
 .desc {
     font-weight: 400;
 font-size: 20px;
 color: #000;
 margin-bottom: 45px;
+font-family: "Nunito", serif;
 }
 .order {
     font-weight: 700;
@@ -72,8 +80,9 @@ border-radius: 5px;
 padding: 15px 30px;
 width: 163px;
 height: 57px;
-background: #ff463a;
+background: var(--main-red);
 border-style: none;
+font-family: "Nunito", serif;
 }
 .header-ice-cream {
     width: 501px;
