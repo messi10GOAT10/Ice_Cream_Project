@@ -1,2 +1,58 @@
 @import "/styles/reset.css";
 @import "/styles/colors.css";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.page-wrapper{
+    width: 1920px;
+    justify-self: center;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name {
+font-weight: 400;
+font-size: 24px;
+color: #ff993a;
+margin-right: 188px;
+}
+.sections {
+    display: flex;
+    list-style: none;
+}
+.section-names {
+    font-weight: 400;
+font-size: 20px;
+color: #000;
+margin: 0px 65px;
+}
+.Home {
+    font-weight: 600;
+    font-size: 20px;
+    color: #ff993a;
+    margin-right: 65px;
+}
+.nav-img {
+    margin-right: 22px;
+    width: 80px;
+    height: 80px;
+}
+.header {
+    width: 1920px;
+    height: 758px;
+    background: #FFE4CC;
+    display: flex;
+}
+.Welcome {
+}
+.flavor {
+}
+.desc {
+}
+.order {
+}
+.header-ice-cream {
+}
