@@ -24,7 +24,7 @@ body{
 .nav-name {
 font-weight: 400;
 font-size: 24px;
-color: #ff993a;
+color: var(--main-orange);
 margin-right: 188px;
 font-family: "Oswald", serif;
 }
@@ -111,7 +111,7 @@ background: #efefef;
 .cards-title {
     font-weight: 700;
 font-size: 36px;
-color: #ff463a;
+color: var(--main-red);
 font-family: "Nunito", serif;
 margin-bottom: 10px;
 }
@@ -144,4 +144,33 @@ padding: 15px 30px;
 .cards-text{
     display: flex;
     flex-direction: column;
+}
+.flavors {
+height: 999px;
+background: #ffe4cc;
+}
+.flavors-title {
+    font-family: "Nunito", serif;
+    font-weight: 700;
+font-size: 48px;
+text-align: center;
+color: var(--main-red);
+margin-bottom: 40px;
+}
+.flavors-desc {
+    font-family: "Raleway", serif;
+    font-size: 20px;
+text-align: center;
+margin-bottom: 68px;
+}
+.flavors-pictures {
+    border-radius: 5px;
+width: 390px;
+height: 300px;
+align-self: center;
+margin-top: 20px;
+margin-right: 20px;
+}
+.flavors-img-container {
+    margin-left: 150px;
 }
