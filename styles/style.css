@@ -8,7 +8,7 @@
     padding: 0px;
 }
 body{
-    background: #000;
+    background: #000000a3;
 }
 .page-wrapper{
     width: 1920px;
@@ -17,9 +17,8 @@ body{
 }
 .nav-container {
     display: flex;
-    justify-content: center;
     align-items: center;
-    padding: 20px 0px;
+    padding: 20px 0px 20px 150px;
 }
 .nav-name {
 font-weight: 400;
@@ -31,12 +30,11 @@ font-family: "Oswald", serif;
 .nav-sections {
     display: flex;
     list-style: none;
+    column-gap: 65px;
 }
 .nav-section-names {
     font-weight: 400;
 font-size: 20px;
-
-margin: 0px 65px;
 transition: color .5s;
 font-family: "Raleway", serif;
 }
@@ -146,7 +144,7 @@ padding: 15px 30px;
     flex-direction: column;
 }
 .flavors {
-height: 999px;
+padding: 60px 0px;
 background: #ffe4cc;
 }
 .flavors-title {
@@ -173,4 +171,75 @@ margin-right: 20px;
 }
 .flavors-img-container {
     margin-left: 150px;
+}
+.footer {
+}
+.footer-data {
+    display: flex;
+    column-gap: 20px;
+    padding: 100px 150px;
+    justify-content: center;
+}
+.footer-data-card {
+    width: 33%;
+    display: flex;
+    padding: 30px 0px 53px;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    transition: all .5s;
+}
+.footer-data-card:hover{
+    background-color: var(--main-red);
+    cursor: pointer;
+}
+/*
+.footer-data-card:nth-child(2){
+    padding-left: 189px;
+    padding-right: 189px;
+}
+.footer-data-card:last-child{
+    padding-left: 35px;
+    padding-right: 35pxpx;
+} */
+.footer-data-card-photo {
+    margin-bottom: 40px;
+}
+.footer-data-card-title {
+    margin-bottom: 25px;
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--main-red);
+}
+.footer-data-card-subtitle {
+    text-align: center;
+    font-size: 24px;
+    color: #000;
+    text-decoration: none;
+}
+.footer-data-card:hover>.footer-data-card-title ,.footer-data-card:hover>.footer-data-card-subtitle{
+    color: white;
+}
+.footer-policy {
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 150px;
+}
+.footer-policy-left {
+    display: flex;
+    align-items: center;
+    column-gap: 37px;
+}
+.footer-policy-logo {
+}
+.footer-policy-left-name-logo {
+    color: var(--main-orange);
+    font-size: 24px;
+}
+.footer-policy-desc {
+    font-size: 20px;
+    color: white;
 }
