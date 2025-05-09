@@ -1,0 +1,27 @@
+@import '../style.scss';
+.flavors {
+    padding: 60px 0px;
+    background: #ffe4cc;
+    &-title {
+        font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    color: $mainRed;
+    margin-bottom: 40px;
+    }
+    &-desc {
+    @include font(Raleway, 20px);
+    text-align: center;
+    margin-bottom: 68px;
+    }
+    &-pictures {
+        border-radius: 5px;
+        @include wh(390px, 300px);
+    align-self: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    }
+    &-img-container {
+        margin-left: 150px;
+    }
+    }

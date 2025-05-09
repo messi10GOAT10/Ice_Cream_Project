@@ -1,0 +1,40 @@
+@import '../style.scss';
+.cards {
+    @include mainFunction(flex, center, none);
+    column-gap: 20px;
+    padding: 60px 0px;
+    &-title {
+        font-weight: 700;
+    color: $mainRed;
+    @include font(Nunito, 36px);
+    margin-bottom: 10px;
+    }
+    &-num {
+    @include font(Raleway, 20px);
+    margin-bottom: 45px;
+    }
+    &-shop {
+    @include font(Raleway, 20px);
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 15px 30px;
+    }
+    &-text{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.card-1 {
+    @include mainFunction(flex, center, center);
+    column-gap: 117px;
+    border-radius: 10px;
+    @include wh(800px, 500px);
+    background: #efefef;
+}
+.card-2 {
+    @include mainFunction(flex, center, center);
+    column-gap: 117px;
+    border-radius: 10px;
+    @include wh(800px, 500px);
+    background: #efefef;
+}

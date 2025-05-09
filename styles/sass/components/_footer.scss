@@ -1,0 +1,64 @@
+@import '../style.scss';
+.footer-data {
+    @include mainFunction(flex, center, none);
+    column-gap: 20px;
+    padding: 100px 150px;
+    &-card {
+        @include mainFunction(flex, none, center);
+        width: 33%;
+        padding: 30px 0px 53px;
+        flex-direction: column;
+        box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        transition: all .5s;
+    }
+    &-card:hover{
+        background-color: $mainRed;
+        cursor: pointer;
+    }
+        &-photo {
+            margin-bottom: 40px;
+        }
+        &-title {
+            margin-bottom: 25px;
+            font-size: 32px;
+            font-weight: 700;
+            color: var(--main-red);
+        }
+        &-subtitle {
+            text-align: center;
+            font-size: 24px;
+            color: #000;
+            text-decoration: none;
+        }
+        &:hover>&-title, &:hover>&-subtitle{
+            color: $mainRed;
+        }
+    
+}
+/*
+.footer-data-card:nth-child(2){
+    padding-left: 189px;
+    padding-right: 189px;
+}
+.footer-data-card:last-child{
+    padding-left: 35px;
+    padding-right: 35pxpx;
+} */
+.footer-policy {
+    @include mainFunction(flex, space-between, center);
+    background: #000;
+    padding: 60px 150px;
+    &-left {
+        @include mainFunction(flex, none, center);
+        column-gap: 37px;
+        &-name-logo {
+        color: $mainOrange;
+        font-size: 24px;
+        }
+        &-desc {
+            font-size: 20px;
+            color: white;
+        }
+    }
+}
